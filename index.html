@@ -7,19 +7,14 @@
     <title>ToDoList</title>
 </head>
 <body>
-        <div id="container">
+  <div id="liste" class="header">
+    <h2>Liste de choses à faire : </h2>
+      <input type="text" id="activ" placeholder="Activités">
+    <span onclick="nouvelleAct()" class="ajout">Ajouter</span>
+  </div>
+  <ul id="UL">
+    <li>Il n'y rien a faire </li>
+  </ul>
 
-          <header>
-            <input type="text" placeholder="A faire aujourd'hui" id="liste" />
-
-             <input type="button" id="ajouter" placeholder="AJOUTER" />
-
-          </header>
-          <h2>A Faire</h2>
-          <ul class="todo" id="todo">
-          <h4> Il n'ya rien dans la liste pour le moment </h4>
-        </div>
-
-        
 </body>
 </html>
