@@ -1,0 +1,40 @@
+
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    background-color: lightgreen;
+    padding: 10%;
+    min-height: 50%;
+    min-width: 50%;
+    width: auto;
+    height: auto;
+ 
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.remove svg path {
+    fill: lightblue;
+}
+
+.remove:hover svg path {
+    fill: blue;
+}
+
+
+
+#ajouter{
+    background-color: lightblue;
+    text-align: center;
+
+}
